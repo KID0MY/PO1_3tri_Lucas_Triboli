@@ -1,0 +1,46 @@
+Begin Object Class=/Script/Engine.Material Name="02_-_Default"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.901961,G=0.741176,B=0.000000,A=0.000000)
+      ExpressionGUID=A9FF804849AE969D4FEA939FD698F9D5
+      MaterialExpressionGuid=9D91076849F289CD0CCD788FEA4A81DF
+      Material=Material'"02_-_Default"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=1.000000
+      MaterialExpressionEditorX=16
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=8C14A9D24EC1BA2B7B0235B910AC8713
+      Material=Material'"02_-_Default"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      MaterialExpressionEditorX=13
+      MaterialExpressionEditorY=262
+      MaterialExpressionGuid=8C14A9D24EC1BA2B7B0235B910AC8713
+      Material=Material'"02_-_Default"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   Specular=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_1"')
+   EditorX=240
+   EditorY=16
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D8839CE94B1E396BB3AF6D82253DA571
+   CachedExpressionData=(Parameters=(RuntimeEntries[1]=(NameHashes=(10371715421228879687),ParameterInfos=((Name="Param")),ExpressionGuids=(A9FF804849AE969D4FEA939FD698F9D5)),VectorValues=((R=0.901961,G=0.741176,B=0.000000,A=0.000000)),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A83F9B684E3C5BA9D2E097BC4C535C2A
+End Object
